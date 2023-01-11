@@ -16,3 +16,16 @@ export const WEIGHTS = {
   medium: 600,
   bold: 800,
 };
+
+// Desktop first approach
+export const BREAKPOINTS = {
+  lapTopMax: 1300,
+  tabletMax: 950,
+  mobileMax: 600,
+};
+
+export const QUERIES = {
+  lapTopAndBelow: `(max-width: ${BREAKPOINTS.lapTopMax}px)`,
+  tabletAndBelow: `(max-width: ${BREAKPOINTS.tabletMax}px)`,
+  mobileAndBelow: `(max-width: ${BREAKPOINTS.mobileMax}px)`,
+};
